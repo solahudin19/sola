@@ -1,0 +1,114 @@
+<h1>HTML DASAR</h1>
+    <hr>
+    <h2>contoh list dalam HTML</h2>
+    <p> Contoh pertama unordered list</p>
+    <ul>
+        <li> list 1 </li>
+        <li> list 2 </li>
+    </ul>
+    <br>
+    <ol> 
+        <li> list 1 </li>
+        <li> list 2 </li>
+    </ol>
+    <br>
+    <h2>Contoh hyper link dalam HTML</h2>
+    <a href="https://www.youtube.com/watch?v=QIlBOI-hTuA&list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F&index=8">klik di sini untuk vidio tutorial</a>
+    <br>
+    <img src= "gambar/tes.jpeg" width="800px" height="500px" alt="ini foto di ocean blue">
+    <br>
+    <table>
+        <tr>
+            <td>Baris 1, kolom 1</td>
+            <td>Baris 2, kolom 2</td>
+        </tr>
+    </table>
+</body>
+</html>
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Kolom 1</th>
+            <th>Kolom 2</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Baris 1</th>
+                    <td>Baris 1, kolom 1</td>
+                    <td>Baris 1, kolom 2</td>
+                    </tr>
+                    <tr>
+                        <th>Baris 2</th>
+                        <td>Baris 2, Kolom 1</td>
+                        <td>Baris 2, Kolom 2</td>
+                        </tr>
+</tbody>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        </head>
+        <body>
+
+<table border="1" cellspacing="0" cellpanding="10">
+    <tr>
+        <td>Baris 1, Kolom 1</td>
+        <td>Baris 1, Kolom 2</td>
+        </tr>
+        <tr>
+            <td>Baris 2, kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+            </tr>
+            </table>
+<!DOCTYPE html>
+            <html>
+                </head>
+                <title>Table</title>
+            </head>
+            <body>
+
+                <table border="1" cellspacing="0" cellpanding="5">
+                    <tr>
+                        <td>1,1</td>
+                        <td colspan="2">contoh aja</td>
+                        </tr>
+                        <tr>
+                            <td>2,1</td>
+                            <td>2,2</td>
+                            <td>2,3</td>
+                            </tr>
+                            <tr>
+                                <td>3,1</td>
+                                <td>3,2</td>
+                                <td>3,3</td>
+                                </tr>
+                            </table>
+
+                                </body>
+                                </html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table</title>
+        </head>
+        <body>
+
+            <table border="1" cellspacing="0" cellpadding="5">
+                <tr>
+                    <td rowspan="3">coba coba</td>
+                    <td colspan="2">contoh cuy</td>
+                    </tr>
+                    <tr>
+                        <td>2,2</td>
+                        <td>2,3</td>
+                        </tr>
+                        <tr>
+                            <td>3,2</td>
+                            <td>3,3</td>
+                            </tr>
+                            </table>
+
+                            </body>
+                            </html>
